@@ -36,8 +36,8 @@ export default function Home() {
   }
 
   return (
-    <main className="container mx-auto py-10 bg-red-600">
-      <h1 className="text-4xl font-bold mb-8 text-center text-white">Ak Portföy Yabancı Hisse Senedi Fonu (AFA)</h1>
+    <main className="container mx-auto py-10 bg-white">
+      <h1 className="text-4xl font-bold mb-8 text-center text-red-600">Ak Portföy Yabancı Hisse Senedi Fonu (AFA)</h1>
       <StockTable stocks={stocks} />
     </main>
   )

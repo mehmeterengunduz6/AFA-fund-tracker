@@ -38,9 +38,9 @@ export function StockTable({ stocks }) {
   };
 
   return (
-    <div className="min-h-screen bg-red-600 py-8 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-white py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-2xl font-bold text-white mb-8">Kasım 2024 Portföy Dağılımı</h1>
+        <h1 className="text-2xl font-bold text-red-600 mb-8">Kasım 2024 Portföy Dağılımı</h1>
         <div className="space-y-4">
           {currentStocks.map((stock, index) => (
             <Card key={stock.symbol} className="p-6 flex items-center" ref={index === currentStocks.length - 1 ? lastStockElementRef : null}>
